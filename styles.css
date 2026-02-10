@@ -268,6 +268,28 @@ header {
     color: #777;
     font-size: 0.9rem;
     font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.speaker-card .status {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.speaker-card .status.confirmed {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.speaker-card .status.tentative {
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeaa7;
 }
 
 /* Schedule */
@@ -309,6 +331,39 @@ header {
     color: #555;
 }
 
+.interaction-highlights {
+    margin-top: 3rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid #c41230;
+}
+
+.interaction-highlights h3 {
+    color: #1e3a5f;
+    margin-bottom: 1rem;
+}
+
+.interaction-highlights ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.interaction-highlights li {
+    padding: 0.75rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #555;
+}
+
+.interaction-highlights li:before {
+    content: "▶";
+    color: #c41230;
+    position: absolute;
+    left: 0;
+    font-size: 0.8rem;
+}
+
 /* Dates List */
 .dates-list {
     background: white;
@@ -328,6 +383,37 @@ header {
 
 .date-item strong {
     color: #1e3a5f;
+}
+
+/* Competition Section */
+.competition-details {
+    margin-top: 2rem;
+}
+
+.competition-details h3 {
+    color: #1e3a5f;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.competition-details a {
+    color: #3d7a9c;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.competition-details a:hover {
+    border-bottom-color: #3d7a9c;
+}
+
+.competition-details ul {
+    margin-left: 2rem;
+}
+
+.competition-details ul li {
+    margin-bottom: 0.5rem;
 }
 
 /* Organizers Grid */
@@ -366,6 +452,14 @@ header {
 .organizer-card .email {
     color: #3d7a9c;
     font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.organizer-card .bio {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 0.75rem;
 }
 
 /* Contact */
@@ -404,7 +498,8 @@ footer {
 }
 
 footer p {
-    margin: 0;
+    margin: 0.5rem 0;
+    opacity: 0.9;
 }
 
 /* Responsive Design */

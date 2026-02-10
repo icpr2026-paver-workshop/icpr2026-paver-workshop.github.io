@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICPR 2026 Workshop</title>
+    <title>PAVER Workshop @ ICPR 2026</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="header-content">
             <div class="logo">
-                <h1>WorkshopName2026</h1>
+                <h1>PAVER 2026</h1>
             </div>
             <button class="menu-toggle" id="menuToggle">
                 <span></span>
@@ -24,8 +24,10 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#topics">Topics</a></li>
             <li><a href="#speakers">Speakers</a></li>
             <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#competition">Competition</a></li>
             <li><a href="#submissions">Call for Papers</a></li>
             <li><a href="#organizers">Organizers</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -44,17 +46,17 @@
                     </div>
                     <div class="conference-details">
                         <h2>ICPR 2026</h2>
-                        <p class="location">KOLKATA, INDIA</p>
-                        <p class="dates">DECEMBER 2026</p>
+                        <p class="location">LYON, FRANCE</p>
+                        <p class="dates">AUGUST 17-22, 2026</p>
                     </div>
                 </div>
                 
                 <button class="workshop-badge">ICPR 2026 Workshop</button>
                 
-                <h1 class="hero-title">Workshop on [Topic Name]</h1>
+                <h1 class="hero-title">PAVER: Physics-Aware Video gEneration and Restoration</h1>
                 <p class="hero-subtitle">
-                    [Workshop Subtitle]: Exploring [Key Theme] for [Application Area]<br>
-                    at the International Conference on Pattern Recognition
+                    1st Workshop on Physics-Aware Video Generation and Restoration<br>
+                    at the 28th International Conference on Pattern Recognition
                 </p>
             </div>
         </section>
@@ -64,103 +66,190 @@
                 <h2 class="section-title">About the Workshop</h2>
                 <div class="section-content">
                     <p>
-                        Welcome to our workshop at ICPR 2026! This workshop brings together researchers, 
-                        practitioners, and industry experts to discuss the latest advances in [topic area].
+                        This workshop aims to bring together researchers and practitioners from computer vision, machine learning, 
+                        and physics-based modeling to discuss the latest advancements in video generation and restoration. 
+                        The workshop will emphasize the importance of integrating physical constraints and real-world priors 
+                        into generative video models to ensure realism, consistency, and applicability in diverse domains.
                     </p>
                     <p>
-                        The workshop aims to foster collaboration and exchange of ideas on [specific focus areas], 
-                        with particular emphasis on [key themes]. We invite submissions on topics including but not limited to:
+                        Physics-aware video generation and restoration are fundamental for applications where realistic motion, 
+                        temporal consistency, and adherence to physical laws are critical, including:
                     </p>
                     <ul class="topics-list">
-                        <li>Novel approaches to [topic 1]</li>
-                        <li>Recent advances in [topic 2]</li>
-                        <li>Applications of [topic 3]</li>
-                        <li>Benchmarks and datasets for [topic 4]</li>
-                        <li>Theoretical foundations of [topic 5]</li>
+                        <li><strong>Autonomous driving:</strong> Accurate motion forecasting and scene reconstruction</li>
+                        <li><strong>Medical imaging:</strong> High-fidelity generation/restoration for better diagnostics</li>
+                        <li><strong>Scientific simulations:</strong> Data-driven video generation for physics-based modeling</li>
+                        <li><strong>Streaming, AR/VR, and gaming:</strong> Real-time video enhancement for immersive experiences</li>
+                        <li><strong>Surveillance and forensics:</strong> Reconstruction of occluded or degraded video</li>
+                        <li><strong>Infant/toddler monitoring:</strong> Detecting and restoring subtle movements in low-quality recordings</li>
+                        <li><strong>Elderly care and assistive technology:</strong> Enhancing visibility and understanding of movement patterns</li>
+                    </ul>
+                    
+                    <h3>Expected Outcomes</h3>
+                    <p>The workshop will:</p>
+                    <ul class="topics-list">
+                        <li>Define the state-of-the-art in physics-aware generative video modeling</li>
+                        <li>Establish benchmarks and shared datasets for physics-consistent video generation</li>
+                        <li>Foster collaborations across academia and industry on simulation-to-reality (Sim2Real) research</li>
+                        <li>Produce a position paper summarizing open challenges and research directions for this emerging field</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="content-section alt-bg" id="speakers">
+        <section class="content-section alt-bg" id="topics">
+            <div class="container">
+                <h2 class="section-title">Key Topics</h2>
+                <div class="section-content">
+                    <p>We invite submissions on the following topics (but not limited to):</p>
+                    <ul class="topics-list">
+                        <li>Physics-aware video generation: Integrating physical laws, fluid dynamics, and rigid-body motion into generative models</li>
+                        <li>Temporal consistency in video generation: Addressing flickering, motion coherence, and long-term dynamics</li>
+                        <li>Video super-resolution and enhancement: Transforming low-quality video (SD-to-HD, SDR-to-HDR) while preserving physical realism</li>
+                        <li>Generative AI for video restoration: Applications of diffusion models, GANs, and transformers</li>
+                        <li>Synthetic data generation for video restoration: Using physics-based rendering and generative models</li>
+                        <li>Domain adaptation and cross-modal learning: Leveraging multi-modal information for robust video synthesis</li>
+                        <li>Efficient video generation and restoration: Optimizing for real-time applications and edge computing</li>
+                        <li>Self-supervised and unsupervised learning for video restoration: Training with minimal labeled data</li>
+                        <li>Video artifact removal and enhancement: Denoising, deblurring, inpainting, and artifact removal</li>
+                        <li>Benchmarking and evaluation metrics: Novel full-reference, reduced-reference, and no-reference metrics</li>
+                        <li>Application-driven video enhancement: For medical, autonomous driving, surveillance, and creative industries</li>
+                        <li>Ethical considerations and societal impact: Addressing biases, misinformation risks, and responsible AI use</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="speakers">
             <div class="container">
                 <h2 class="section-title">Invited Speakers</h2>
                 <div class="speakers-grid">
                     <div class="speaker-card">
                         <div class="speaker-image-placeholder"></div>
-                        <h3>Dr. [Speaker Name 1]</h3>
-                        <p class="affiliation">[University/Company]</p>
-                        <p class="bio">Expert in [research area]</p>
+                        <h3>Dr. Lijuan Wang</h3>
+                        <p class="affiliation">Principal Research Manager<br>Microsoft Cloud and AI</p>
+                        <p class="bio">Leading expert in computer vision, deep learning, and generative AI with extensive contributions to multimodal learning</p>
+                        <p class="status confirmed">✓ Confirmed</p>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-image-placeholder"></div>
-                        <h3>Dr. [Speaker Name 2]</h3>
-                        <p class="affiliation">[University/Company]</p>
-                        <p class="bio">Leading researcher in [field]</p>
+                        <h3>Dr. Gérard Medioni</h3>
+                        <p class="affiliation">Distinguished Scientist<br>Amazon.com</p>
+                        <p class="bio">Expert in computer vision, 3D reconstruction, and image processing with extensive real-world applications</p>
+                        <p class="status confirmed">✓ Confirmed</p>
                     </div>
                     <div class="speaker-card">
                         <div class="speaker-image-placeholder"></div>
-                        <h3>Dr. [Speaker Name 3]</h3>
-                        <p class="affiliation">[University/Company]</p>
-                        <p class="bio">Pioneer in [specific area]</p>
-                    </div>
-                    <div class="speaker-card">
-                        <div class="speaker-image-placeholder"></div>
-                        <h3>Dr. [Speaker Name 4]</h3>
-                        <p class="affiliation">[University/Company]</p>
-                        <p class="bio">Specialist in [domain]</p>
+                        <h3>Dr. Jonathan Ho</h3>
+                        <p class="affiliation">Co-Founder<br>Ideogram</p>
+                        <p class="bio">Pioneer of Denoising Diffusion Probabilistic Models (DDPM), leading researcher in generative modeling</p>
+                        <p class="status tentative">⏳ In Contact</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="content-section" id="schedule">
+        <section class="content-section alt-bg" id="schedule">
             <div class="container">
-                <h2 class="section-title">Schedule</h2>
+                <h2 class="section-title">Workshop Schedule</h2>
                 <div class="schedule-content">
-                    <p class="schedule-note">Detailed schedule will be announced soon. The workshop will be held on [Date] during ICPR 2026.</p>
+                    <p class="schedule-note">Full-day workshop at ICPR 2026, Lyon, France. Detailed schedule below:</p>
                     
                     <div class="schedule-table">
                         <div class="schedule-item">
-                            <span class="time">09:00 - 09:15</span>
+                            <span class="time">8:20 - 8:30</span>
                             <span class="event">Opening Remarks</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">09:15 - 10:00</span>
-                            <span class="event">Keynote Talk 1: [Speaker Name]</span>
+                            <span class="time">8:30 - 9:30</span>
+                            <span class="event">Keynote 1</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">10:00 - 10:30</span>
-                            <span class="event">Oral Presentations Session 1</span>
-                        </div>
-                        <div class="schedule-item">
-                            <span class="time">10:30 - 11:00</span>
+                            <span class="time">9:30 - 10:15</span>
                             <span class="event">Coffee Break</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">11:00 - 11:45</span>
-                            <span class="event">Keynote Talk 2: [Speaker Name]</span>
+                            <span class="time">10:15 - 11:15</span>
+                            <span class="event">Oral Long I</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">11:45 - 12:30</span>
-                            <span class="event">Oral Presentations Session 2</span>
+                            <span class="time">11:15 - 11:45</span>
+                            <span class="event">Oral Short I</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">12:30 - 14:00</span>
+                            <span class="time">11:45 - 1:15</span>
                             <span class="event">Lunch Break</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">14:00 - 15:00</span>
-                            <span class="event">Poster Session</span>
+                            <span class="time">1:15 - 2:00</span>
+                            <span class="event">Oral Long II</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">15:00 - 15:45</span>
-                            <span class="event">Panel Discussion</span>
+                            <span class="time">2:00 - 2:15</span>
+                            <span class="event">Challenge Introduction</span>
                         </div>
                         <div class="schedule-item">
-                            <span class="time">15:45 - 16:00</span>
+                            <span class="time">2:15 - 3:00</span>
+                            <span class="event">Oral Long III</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">3:00 - 3:45</span>
+                            <span class="event">Coffee Break</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">3:45 - 4:20</span>
+                            <span class="event">Oral Short II</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">4:20 - 4:30</span>
                             <span class="event">Closing Remarks</span>
                         </div>
+                        <div class="schedule-item">
+                            <span class="time">4:30 - 5:30</span>
+                            <span class="event">Poster Session</span>
+                        </div>
+                    </div>
+
+                    <div class="interaction-highlights">
+                        <h3>Interactive Sessions</h3>
+                        <ul>
+                            <li><strong>Panel Discussions:</strong> "What Does Physics Add to Learning?" featuring academic and industry researchers</li>
+                            <li><strong>Roundtable Sessions:</strong> Small-group discussions for bridging subfields (simulation, ML, robotics)</li>
+                            <li><strong>Poster Lightning Talks:</strong> 2-minute pitches before the poster session to foster visibility and dialogue</li>
+                            <li><strong>Challenge Awards Session:</strong> Highlighting results from the video super-resolution competition</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="competition">
+            <div class="container">
+                <h2 class="section-title">Video Super-Resolution Competition</h2>
+                <div class="section-content">
+                    <p>
+                        As part of the PAVER workshop, we are hosting a challenge focused on <strong>video super-resolution</strong>, 
+                        specifically addressing <strong>SD-to-HD super-resolution</strong> and <strong>SDR-to-HDR enhancement</strong>.
+                    </p>
+                    <p>
+                        Participants will work with the <strong>LIVE-APV dataset</strong> to develop and benchmark state-of-the-art 
+                        methods for enhancing video resolution and dynamic range. This challenge aims to push the boundaries of 
+                        video super-resolution, improving real-world applications in streaming, AR/VR, and beyond.
+                    </p>
+                    
+                    <div class="competition-details">
+                        <h3>Dataset</h3>
+                        <p>The dataset is already available: <a href="https://live.ece.utexas.edu/research/LIVE_APV_Study/apv_index.html" target="_blank">LIVE-APV Dataset</a></p>
+                        
+                        <h3>Evaluation Metrics</h3>
+                        <p>Submissions will be evaluated against ground truth videos using full reference metrics such as:</p>
+                        <ul>
+                            <li>SSIM/PQ-SSIM</li>
+                            <li>PSNR/PQ-PSNR</li>
+                            <li>LPIPS</li>
+                        </ul>
+                        
+                        <p>We welcome researchers and practitioners to contribute novel approaches and participate in this exciting competition!</p>
                     </div>
                 </div>
             </div>
@@ -171,32 +260,43 @@
                 <h2 class="section-title">Call for Papers</h2>
                 <div class="section-content">
                     <p>
-                        We invite submissions of original research papers, extended abstracts, and position papers 
-                        related to the workshop topics. All submissions will be peer-reviewed.
+                        We invite submissions in the following formats:
+                    </p>
+                    <ul>
+                        <li><strong>Full papers</strong> (up to 8 pages) following the ICPR template</li>
+                        <li><strong>Extended abstracts</strong> (up to 4 pages) following the ICPR template</li>
+                    </ul>
+                    <p>
+                        Accepted papers will be published in the official ICPR Workshop Proceedings on OpenReview.
                     </p>
                     
                     <h3>Important Dates</h3>
                     <div class="dates-list">
                         <div class="date-item">
-                            <strong>Paper Submission Deadline:</strong> [Date TBD]
+                            <strong>Paper Submission Deadline:</strong> January 30, 2026
                         </div>
                         <div class="date-item">
-                            <strong>Notification of Acceptance:</strong> [Date TBD]
+                            <strong>Review Submission Deadline:</strong> February 20, 2026
                         </div>
                         <div class="date-item">
-                            <strong>Camera-Ready Deadline:</strong> [Date TBD]
+                            <strong>Author Notification:</strong> March 1, 2026
                         </div>
                         <div class="date-item">
-                            <strong>Workshop Date:</strong> December 2026
+                            <strong>Camera-Ready Deadline:</strong> To be announced (will adhere to conference deadline)
+                        </div>
+                        <div class="date-item">
+                            <strong>Workshop Date:</strong> August 2026 (during ICPR 2026)
                         </div>
                     </div>
 
                     <h3>Submission Guidelines</h3>
                     <ul>
                         <li>Papers should follow the ICPR 2026 format</li>
-                        <li>Maximum length: 8 pages (excluding references)</li>
-                        <li>Submit via [Submission Portal - link TBD]</li>
+                        <li>Full papers: Maximum 8 pages (excluding references)</li>
+                        <li>Extended abstracts: Maximum 4 pages (excluding references)</li>
+                        <li>Submit via OpenReview (link to be announced)</li>
                         <li>All submissions must be original work</li>
+                        <li>Papers will undergo peer review by the program committee</li>
                     </ul>
                 </div>
             </div>
@@ -207,24 +307,40 @@
                 <h2 class="section-title">Organizers</h2>
                 <div class="organizers-grid">
                     <div class="organizer-card">
-                        <h3>[Organizer Name 1]</h3>
-                        <p class="affiliation">[Institution]</p>
-                        <p class="email">[email@institution.edu]</p>
+                        <h3>Dr. Yarong Feng</h3>
+                        <p class="affiliation">Senior Applied Scientist<br>Amazon</p>
+                        <p class="email">yarongf@amazon.com</p>
+                        <p class="bio">Ph.D. in Statistics, expertise in probability theory, computer vision, and multi-modal learning</p>
                     </div>
                     <div class="organizer-card">
-                        <h3>[Organizer Name 2]</h3>
-                        <p class="affiliation">[Institution]</p>
-                        <p class="email">[email@institution.edu]</p>
+                        <h3>Prof. Sarah Ostadabbas</h3>
+                        <p class="affiliation">Associate Professor<br>Northeastern University</p>
+                        <p class="bio">Director of Augmented Cognition Lab and Women in Engineering, NSF CAREER Award recipient</p>
                     </div>
                     <div class="organizer-card">
-                        <h3>[Organizer Name 3]</h3>
-                        <p class="affiliation">[Institution]</p>
-                        <p class="email">[email@institution.edu]</p>
+                        <h3>Dr. Qipin Chen</h3>
+                        <p class="affiliation">Applied Scientist<br>Amazon</p>
+                        <p class="bio">Ph.D. in Computational Mathematics, specializing in computer vision and multi-modal learning</p>
                     </div>
                     <div class="organizer-card">
-                        <h3>[Organizer Name 4]</h3>
-                        <p class="affiliation">[Institution]</p>
-                        <p class="email">[email@institution.edu]</p>
+                        <h3>Dr. Zongyi (Joe) Liu</h3>
+                        <p class="affiliation">Principal Computer Vision Scientist<br>Amazon</p>
+                        <p class="bio">Ph.D. in Computer Science, 15+ years of industrial research experience</p>
+                    </div>
+                    <div class="organizer-card">
+                        <h3>Dr. Agata Lapedriza</h3>
+                        <p class="affiliation">Principal Research Scientist<br>Northeastern University</p>
+                        <p class="bio">Specializing in human-centric AI, affective computing, and responsible AI</p>
+                    </div>
+                    <div class="organizer-card">
+                        <h3>Dr. Hai Wei</h3>
+                        <p class="affiliation">Principal Video Specialist<br>Prime Video, Amazon</p>
+                        <p class="bio">Ph.D. in Computer Science, 16+ years of experience in video compression and quality analysis</p>
+                    </div>
+                    <div class="organizer-card">
+                        <h3>Dr. Zicheng Liu</h3>
+                        <p class="affiliation">Senior Director of GenAI<br>AMD</p>
+                        <p class="bio">IEEE Fellow, former Editor-in-Chief of JVCIR, expert in foundation models and computer vision</p>
                     </div>
                 </div>
             </div>
@@ -232,15 +348,26 @@
 
         <section class="content-section alt-bg" id="contact">
             <div class="container">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title">Contact & Updates</h2>
                 <div class="section-content">
                     <p>For any questions or inquiries, please contact us at:</p>
-                    <p class="contact-email"><strong>Email:</strong> workshop@icpr2026.example.com</p>
-                    <p>Follow us for updates:</p>
+                    <p class="contact-email"><strong>Email:</strong> yarongf@amazon.com (Primary Contact: Dr. Yarong Feng)</p>
+                    
+                    <h3>Stay Updated</h3>
+                    <p>The workshop website will be hosted at: <a href="https://paver-workshop.github.io" target="_blank">https://paver-workshop.github.io</a></p>
+                    <p>Follow us for updates on social media:</p>
                     <div class="social-links">
-                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Twitter/X</a>
                         <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Discord</a>
                     </div>
+                    
+                    <h3>Diversity & Inclusion</h3>
+                    <p>
+                        We are committed to fostering an inclusive environment and actively encourage participation from 
+                        underrepresented groups in AI and computer vision. We will reach out to communities including 
+                        Women in Vision, WiML, and RAISE initiatives.
+                    </p>
                 </div>
             </div>
         </section>
@@ -248,7 +375,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 ICPR Workshop. All rights reserved.</p>
+            <p>&copy; 2026 PAVER Workshop @ ICPR 2026. All rights reserved.</p>
+            <p>28th International Conference on Pattern Recognition | Lyon, France | August 17-22, 2026</p>
         </div>
     </footer>
 
