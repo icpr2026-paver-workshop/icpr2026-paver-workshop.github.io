@@ -364,6 +364,40 @@ header {
     font-size: 0.8rem;
 }
 
+/* Submission Link */
+.submission-link-container {
+    background: #e8f4f8;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid #3d7a9c;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.submission-link-container strong {
+    color: #1e3a5f;
+    font-size: 1.1rem;
+}
+
+.submission-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: #3d7a9c;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s;
+    word-break: break-all;
+}
+
+.submission-link:hover {
+    background: #2d5a7b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(61, 122, 156, 0.3);
+}
+
 /* Dates List */
 .dates-list {
     background: white;
